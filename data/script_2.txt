@@ -1,0 +1,34 @@
+create-user spongebob@bikinibottom.com spongebobpass bob
+create-user patrickstar@bikinibottom.com patrickpass patrick
+login bob spongebobpass
+login spongebob@bikinibottom.com spongebobpass
+login spongebob@bikinibottom.com spongebobpass
+create-server 1 pineapple
+create-server 1 krabpatty
+set-server-invite-code 2 pineapple 
+set-server-invite-code 1 pineapple 
+enter-server 1 pineapple
+create-channel 1 garrystuff
+enter-channel 1 garrystuff
+send-message 1 Hey, patrick. did u bought the food that i asked for?
+login patrickstar@bikinibottom.com patrickpass
+list-servers 2
+enter-server 2 pineapple wrongcode
+enter-channel 2 garrystuff
+enter-server 2 pineapple
+enter-channel 2 garrystuff
+list-messages 2
+send-message 2 oow, shut. i...i forgot it.
+send-message 1 Poor little guy, he's starving.
+send-message 1 i'll get his food.
+send-message 2 let me come with!!
+send-message 1 no, u did ENOUGHT.
+disconnect 1
+list-messages 2
+list-users 2
+send-message 2 can't belive that u let me alone in here. imma leave this server!
+list-messages 2
+leave-server 2 pineappl
+leave-server 2 pineapple
+quit
+

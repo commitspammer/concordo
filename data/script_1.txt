@@ -1,0 +1,77 @@
+create-user billy@florida.com billypass Billy
+create-user mandy@detroit.com mandypass Mandy
+create-user reaper@death.com reaperpass Reaper
+login billy@florida.com billypass
+disconnect 2
+disconnect 1
+disconnect 1
+login billy@florida.com billypass
+login fake@fake.com mandypass
+login mandy@detroit.com fakepass
+login mandy@detroit.com mandypass
+list-users 1
+login reaper@death.com reaperpass
+list-servers 1
+create-server 1 TESTING123
+create-server 2 emos_only
+create-server 3 Grim-Hideout
+create-server 3 Bone-Enthusiasts
+list-servers 3
+remove-server 3 TESTING123
+remove-server 3 Grim-Hideout
+list-servers 3
+list-participants 1
+enter-server 1 testing123
+list-participants 1
+set-server-desc 2 emos_on billy free zone
+set-server-desc 2 emos_only billy free zone
+set-server-invite-code 2 emos_only begonebilly
+list-servers 3
+enter-server 3 emos_only
+enter-server 3 emos_only begonebilly
+list-participants 3
+list-channels 3
+list-messages 3
+create-channel 3 Bone-Stuff
+list-channels 3
+list-users 3
+send-message 3 Hello, Mandy!
+enter-channel 3 Bone-Stuff
+list-users 3
+list-messages 3
+send-message 3 Hello, Mandy!
+enter-server 2 emos_only
+list-participants 2
+list-channels 2
+enter-channel 2 Bone-Stuff
+list-messages 2
+send-message 2 get lost grim...
+send-message 2 i gave you the code, not the right to bother me
+send-message 2 also keep billy away from here
+create-channel 2 nihilism
+list-servers 1
+enter-server 1 emos_only
+enter-server 1 emos_only ilovebilly
+enter-server 1 emos_only begonebilly
+list-channels 1
+enter-channel 1 Bone-Stuff
+list-messages 1
+send-message 1 HEY MANDY!!!!!!!!! BONES!!!!11!1
+list-messages 3
+send-message 3 Billy?
+send-message 3 Mandy, I swear this has nothing to do with me.
+list-messages 2
+send-message 2 oh no.....
+enter-channel 2 nihilism
+leave-channel 2
+enter-channel 2 nihilism
+list-participants 2
+list-users 2
+disconnect 2
+send-message 1 MANDY? WHERE DID YOU GO??
+list-users 3
+list-messages 3
+send-message 3 She's gone, Billy. Look what you did!
+list-messages 3
+
+quit
